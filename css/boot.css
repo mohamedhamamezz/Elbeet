@@ -1,0 +1,417 @@
+p{
+    text-align: justify;
+}
+img{
+    width: 700px;
+    height: 400px;
+}
+h3{
+    text-align: center;
+    margin: 20px;
+    padding: 29px;
+}
+
+.navbar-brand img {
+  margin-right: 10px;
+}
+nav{
+  max-height: 6rem;
+  min-height:4rem ;
+  width:auto;
+  /* background-color: #6c757d; */
+}
+.nav-link {
+  font-size: 18px;
+  font-weight: 500;
+}
+.nav-item a,.b{
+  margin:0rem 2rem;
+  color: red;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  border-bottom: 2px solid #ffffff;
+}
+
+.navbar-toggler{
+  color: white;
+}
+
+.logo-responsive-height{
+  height: 6rem;
+  width: 25rem;
+}
+
+/*carousel*/
+
+.c-item{
+  height: 40rem;
+}
+
+.c-img{
+  height: 100%;
+  object-fit: fill ;
+  filter: brightness(0.8);
+}
+.modal-backdrop.show {
+  opacity: 0 !important;
+}
+
+.modal-backdrop {
+  --bs-backdrop-zindex: 1019 !important;
+  --bs-backdrop-bg: #000;
+  --bs-backdrop-opacity: 0.5;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: var(--bs-backdrop-zindex);
+  width: 100vw;
+  height: 100vh;
+  background-color: var(--bs-backdrop-bg);
+}
+
+
+.carousel-caption1-position{
+  right:50rem;
+  bottom: 12.5rem;
+}
+
+.carousel-caption2-position{
+  bottom: 3rem;
+}
+
+
+@media (max-width: 767.98px) {
+  .btn-darkblue:hover {
+    background-color: var(--darkblue);
+    border-color: var(--darkblue);
+    background-color: white;
+    color:var(--darkblue);
+}
+
+/*carousel*/
+
+.c-item{
+  height: 20rem;
+}
+
+.c-img{
+  height: 100%;
+  object-fit: fill ;
+  filter: brightness(0.8);
+}
+
+.carousel-caption1-position{
+  right:50rem;
+  bottom: 12.5rem;
+}
+
+.carousel-caption2-position{
+  bottom: 3rem;
+}
+}
+
+img{
+  border: none;
+  height: 50%;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+width: 350px;
+border: 1px solid #ddd;
+border-radius: 8px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+overflow: hidden;
+font-family: Arial, sans-serif;
+margin: 20px auto;
+height: 40px;
+
+}
+.card img:hover{
+transform: scale(1.1);
+
+}
+.cards{
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+position: relative;
+}
+.card img {
+width: 100%;
+height: auto;
+display: block;
+transition: 0.7s ease;
+
+}
+
+.card-content {
+padding: 15px;
+}
+
+.card-title {
+font-size: 1.5em;
+margin: 0;
+color: var(--darkblue);
+}
+
+.card-description {
+font-size: 1em;
+color: #222;
+margin-top: 10px;
+}
+
+/* modal */
+.slick-next:before, .slick-prev:before{
+  color: #a30e0e;
+}
+
+.slick-next{
+  right: 0px;
+  top: 200px;
+}
+.slick-prev{
+  top: 230px;
+  left: 90px;
+}
+.pp{
+  font-size: larger;
+  font-weight: 200;
+}
+
+.product-img{
+  max-height: 200px; 
+  object-fit: contain;
+}
+
+.products-container {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  grid-template-columns: auto auto auto ;
+  gap: 6rem 3rem;
+}
+
+.products-container .card {
+  margin-left: 0; /* أزل أي هوامش قد تسبب ترحيل */
+}
+.products-container{
+  padding-left: 0;
+}
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  
+  /* The navigation menu links */
+  .sidenav img {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav p:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav p {font-size: 18px;}
+  }
+
+  /* start offer section */
+
+
+
+.offer-container{
+  background-color: var(--darkblue);
+  border-radius: 50px;
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
+
+
+.offer-content {
+  width: 50%;
+  color: #f0f0f0;
+
+}
+.offer-content .offer-content-title{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.offer-content  .offer-content-description{
+  font-size: 1.5rem;
+  margin: 1rem 0 2rem;
+}
+
+
+.offer-section .main-btn{
+  width: 10rem;
+  font-size: 1.2rem;
+  background-color: var(--mode-);
+  color: #f0f0f0;
+}
+
+.offer-image-conainer{
+  
+}
+
+.offer-section .offer-image-conainer {
+  width: 90%;
+  padding-left: 900px;
+  text-align: center;
+
+}
+
+.offer-section .offer-image-conainer .offer-image {
+  max-width: 50%;
+}
+
+@media (max-width: 791px) {
+  .offer-container{
+    flex-direction: column;
+    text-align: center;
+    border-radius: 20px;
+  }
+  .offer-container .offer-content{
+    width: 100%;
+
+  }
+  .offer-container .offer-image-conainer {
+    width: 70%;
+
+  }
+  
+}
+
+
+.section-title {
+  font-weight: bold;
+  width: fit-content;
+  margin: 0 auto;
+  text-transform: capitalize;
+  font-size: 2.5rem;
+  position: relative;
+  cursor: default;
+  background: linear-gradient(45deg, #1d997a 50%, #ff00ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.products-section .section-title {
+  margin: 7rem auto 3.3rem;
+
+}
+.header .cart-item {
+  position: relative;
+}
+
+.header .cart-item .cart-icon {
+  font-size: 1.9rem;
+  color: rgba(0, 0, 0, 0.767);
+}
+
+
+
+/* end offer section */
+.cart{
+  padding-top: 13rem;
+  margin-bottom: 6rem;
+  min-height: 100vh;
+
+}
+
+.cart .section-title{
+  margin-bottom: 6rem;
+}
+
+.cart-container{
+  width: 100%;
+   overflow-x: auto;
+
+} 
+.cart-container .cart-table {
+  width: 100%;
+}
+.cart-container .product-count{
+  margin:  0 10px;
+}
+
+
+
+@media (max-width: 791px) {
+  .cart-container .cart-table {
+    width: 800px;
+  } 
+  
+  
+}
+.cart-table th{
+  padding-bottom: 1.5rem;
+  font-size: 1.3rem;
+}
+
+.cart-table .thead-description {
+  width: 55%;
+}
+.cart-table .thead-count {
+  width: 15%;
+}
+.cart-table .thead-remove {
+  width: 15%;
+}
+.cart-table .thead-price {
+  width: 15%;
+}
+
+tr,tfoot{
+  box-shadow: 0px 2px 0px rgba(83, 82, 82, 0.11) ;
+}
+
+.cart-table-tbody-row{
+  transition: 0.4s;
+}
+
+.cart-table-tbody-row .cart-table-tbody-row-img{
+   width: 160px;
+   height: 160px;
+   background-color: var(--secondary-color);
+   border-radius: 8px;
+   padding: 20px;
+   object-fit:  contain;
+}
