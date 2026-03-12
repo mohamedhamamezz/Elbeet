@@ -14,7 +14,7 @@ function openNav4() {
 function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
     document.getElementById("main").style.marginLeft = "0";
-  }
+  
 
 //   function save() {
 //     document.body.style.overflow = ''; // السماح بالتمرير عند إغلاق الـ modal
@@ -136,6 +136,12 @@ const products = [
   ];
   let cart = [];
 
+  }
+  function bottel() {
+    document.getElementById("bottel").style.width = "0";
+    // document.getElementById("main").style.marginLeft = "0";
+  }
+  
 // Save cart to local storage
 function saveCartToLocalStorage(cartArray) {
   localStorage.setItem("cart", JSON.stringify(cartArray));

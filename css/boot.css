@@ -415,3 +415,30 @@ tr,tfoot{
    padding: 20px;
    object-fit:  contain;
 }
+
+.ml-8{
+  margin-left: 4rem;
+}
+.h-25{
+  height: 500px;
+}
+.mb{  
+  margin-bottom: 6rem;
+  padding-bottom: 6rem;
+}
+.ml-2{
+  margin-left: 1rem;
+}
+.left{
+  position: absolute;
+  left: 10px;
+  text-align: left;
+}
+.dl{
+  display: inline;
+  display: inline-flex;
+
+}
+.ml-12{
+  margin-left: 10rem;
+}
