@@ -204,6 +204,16 @@ margin-top: 10px;
 .products-container{
   padding-left: 0;
 }
+
+/* تقليل المسافة بين صفوف المنتجات */
+.card-row {
+  margin-bottom: 6rem;
+}
+
+/* .card-row1 {
+  margin-bottom: 0;
+} */
+
 .sidenav {
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
@@ -441,4 +451,10 @@ tr,tfoot{
 }
 .ml-12{
   margin-left: 10rem;
+}
+.h-50p{
+  height: 400px;
+}
+.mb--65{
+  margin-bottom: -6.5rem;
 }
